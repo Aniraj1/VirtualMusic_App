@@ -39,9 +39,18 @@ nav ul li a {
   top: 30px;
 }
 
-nav a:hover {
+nav li a:hover {
   color: #9595d0;
   transition: 0.3s;
+}
+
+.logo a{
+  color: white;
+}
+
+.logo a:hover{
+  color: white;
+  opacity: 80%;
 }
 
 @media (max-width: 952px) {
@@ -225,6 +234,7 @@ center a:hover{
 .content{
   font-size: small;
 } 
+
 @media(max-width:1480px){
   .main div {
     margin:140px 55px 200px 55px;

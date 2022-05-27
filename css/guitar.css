@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+  }
+
+  /* Header */
+
+.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  nav {
+    background-color: #202046;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-size: small;
+  }
+  nav ul li a {
+    color: white;
+    padding: 5px;
+  }
+  
+  .nav-bar {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+  }
+  
+  nav li a:hover {
+    color: #9595d0;
+    transition: 0.3s;
+  }
+  
+  .logo a{
+    color: white;
+  }
+  
+  .logo a:hover{
+    color: white;
+    opacity: 80%;
+  }
+  
+  @media (max-width: 952px) {
+    .logo {
+      font-size: larger;
+      line-height: 40px;
+    }
+    nav{
+      position: fixed;
+    }
+    
+  }
+
+  /* Main */
+
+  .main div{
+    display: inline-block;
+    margin:140px 140px 200px 140px;
+    
+  }
+
+  .img img{
+    border: 3px solid 
+    #202046 ;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 80px;
+
+  }
+  
+  .img p{
+    padding: 20px;
+    color:#202046;
+    font-size: 25px;
+  }
+
+  .main{
+    text-align: center;
+  }
+
+  @media(max-width:1490px){
+    .main div {
+      margin:100px 100px;
+    }
+    
+  }
+  @media(max-width:1280px){
+    .main div {
+      margin:100px 60px;
+    }
+    
+  }
+  @media(max-width:1126px){
+    .main div {
+      margin:100px 60px;
+    }
+    
+  }
+  @media(max-width:1000px){
+    .main div {
+      margin:10px 40px;
+    }
+    
+  }
+  @media(max-width:884px){
+    .main div {
+      margin:130px 150px 0px 100px;
+    }
+
+    .electric{
+      padding-bottom: 150px;
+    }
+    
+  }
+  
+  /* Footer */
+
+  center{
+    background:
+    #202046 ;
+    color: 	 #a7a7d7;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  center a{
+    color: white;
+    text-decoration: underline;
+  }
+  
+  center a:hover{
+    opacity:60%;
+  }
+  
