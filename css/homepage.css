@@ -40,8 +40,8 @@ nav ul li a {
 }
 
 nav a:hover {
-  background: #282858;
-  transition: 0.5s;
+  color: #9595d0;
+  transition: 0.3s;
 }
 
 @media (max-width: 952px) {
@@ -68,11 +68,16 @@ nav a:hover {
 .main div {
  display: inline-block;
  margin:140px 140px 300px 140px;
+ color: black;
 }
 
 .main i {
   font-size: 100px;
   margin: 50px;
+}
+.main div:hover {
+  color: #4f4fb0;
+  
 }
 
 .main {
@@ -121,11 +126,7 @@ footer{
 
 .left .content p{
   text-align: justify;
-  padding-bottom: 30px;
-}
-
-.left .content .social{
-  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .left .content .social a{
@@ -204,12 +205,21 @@ form .text{
 }
 center{
   opacity: 70%;
-  color: #6f6fb9;
+  color: 	 #a7a7d7;
   font-size: 10px;
+}
+
+.bottom{
+  padding-bottom: 20px;
 }
 
 center a{
   color: white;
+  text-decoration: underline;
+}
+
+center a:hover{
+  opacity:60%;
 }
 
 .content{
@@ -249,3 +259,30 @@ width: 100%;
 
   
 }
+
+/* Animation */
+.animation {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
