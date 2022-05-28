@@ -1,2 +1,2 @@
 # VirtualMusicApp
- A music application that lets you play and practice all your favorite songs online.
+A music application that lets you play all your favorite tunes online by providing you with a variety of instruments.
