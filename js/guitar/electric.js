@@ -3,7 +3,6 @@ for (var i = 0; i < number; i++) {
   document.querySelectorAll("button")[i].addEventListener("click", function () {
     var key = this.innerHTML;
     playguitar(key);
-    alert(key);
   });
 }
 document.addEventListener("keypress", function (event) {

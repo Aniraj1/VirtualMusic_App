@@ -8,7 +8,7 @@
   }
   /* Header */
 
-.logo {
+  .logo {
     color: white;
     font-size: 30px;
     line-height: 40px;
@@ -19,6 +19,7 @@
     height: 80px;
     width: 100%;
     padding: 20px;
+    margin-top: 0;
   }
   
   nav ul li {
@@ -43,11 +44,11 @@
     transition: 0.3s;
   }
   
-  .logo a{
+  .logo a {
     color: white;
   }
   
-  .logo a:hover{
+  .logo a:hover {
     color: white;
     opacity: 80%;
   }
@@ -57,12 +58,7 @@
       font-size: larger;
       line-height: 40px;
     }
-    nav{
-      position: fixed;
-    }
-    
   }
-
   /* Main */
 
 .main {
@@ -159,20 +155,39 @@ button:hover{
     padding: 40px 0 0 0;
   }
 }
-@media (max-width: 850px) {
-  .string {
-    margin: 30px;
+@media (max-width: 860px) {
+  .set div {
+    margin:40px 40px 0 40px;
+  
   }
-}
+  .set{
+    height: 600px;
+  }
+  .text{
+    margin-top: 0px;
+    margin-bottom: 80px;
+    font-size: 22px;
+  }
+  }
 @media (max-width: 654px) {
-  .string {
-    margin: 5px;
+  .set div {
+    margin:8px;
+  
   }
 }
 @media (max-width: 580px) {
   .image div {
     margin: 50px 0;
   }
+  .string {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1218px) {
+.set div button{
+  margin:20px 20px;
+
+}
 }
 
 

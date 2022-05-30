@@ -95,7 +95,6 @@ h1 {
   text-align: center;
   font-size: 60px;
   margin-top: 40px;
-  margin-bottom: 40px;
   padding: 60px;
 }
 
@@ -113,7 +112,7 @@ h1 {
   background-image: url(../images/guitar/a.jpg);
 }
 
-.string {
+.set .string {
   width: 96px;
   height: 138px;
   margin: 50px 50px 10px 50px;
@@ -128,13 +127,13 @@ h1 {
   text-align: center;
 }
 
-button {
+.set div button {
   font-size: 0;
   border: 2px solid #202046;
   border-radius: 10px;
 }
 
-button:hover{
+.set div button:hover{
   opacity: 70%;
 }
 
@@ -144,6 +143,9 @@ button:hover{
   margin: 80px;
   font-weight: 600;
 }
+.main .text{
+  margin-top: 0;
+}
 
 @media(max-width:960px) {
   h1{
@@ -152,9 +154,10 @@ button:hover{
   
 }
 @media(max-width:850px) {
-.string{
+.set .string{
   margin:30px;
 }
+
   
 }
 @media(max-width:654px) {
@@ -187,3 +190,75 @@ center a {
 center a:hover {
   opacity: 60%;
 }
+
+/* Image String */
+.guitarsound{
+  position: relative;
+}
+.guitarsound .sound{
+  position: absolute;
+  width: 15px;
+  height: 600px;
+  left: 135px;
+  transform: rotate(2deg);
+  
+}
+
+.guitarsound .cc{
+  left: 160px;
+  transform: rotate(1deg);
+}
+.guitarsound .ee{
+  left: 187px;
+  transform: rotate(0.5deg);
+}
+.guitarsound .aa{
+  left: 212px;
+  transform: rotate(0deg);
+}
+.guitarsound button{
+  opacity: 30%;
+  text-transform: capitalize;
+  font-weight: 1000px;
+  color: red;
+ 
+}
+.guitarsound button:hover{
+  opacity: 50%;
+}
+
+
+
+.guitarsound2{
+  position: relative;
+}
+.guitarsound2 .sound{
+  position: absolute;
+  width: 15px;
+  height: 400px;
+  left: 135px;
+  transform: rotate(2deg);
+  
+}
+
+.guitarsound2 .cc{
+  left: 160px;
+  transform: rotate(1deg);
+}
+.guitarsound2 .ee{
+  left: 187px;
+  transform: rotate(0.5deg);
+}
+.guitarsound2 .aa{
+  left: 212px;
+  transform: rotate(0deg);
+}
+.guitarsound2 button{
+  opacity: 50%;
+}
+.guitarsound2 button:hover{
+  opacity: 50%;
+}
+
+
+

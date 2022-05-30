@@ -5,6 +5,7 @@ for (var i = 0; i < number; i++) {
     playukelele(key);
   });
 }
+
 document.addEventListener("keypress", function (event) {
   playukelele(event.key);
 });
