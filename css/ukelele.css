@@ -221,6 +221,7 @@ center a:hover {
   text-transform: capitalize;
   font-weight: 1000px;
   color: red;
+  vertical-align: text-bottom;
  
 }
 .guitarsound button:hover{
@@ -234,27 +235,32 @@ center a:hover {
 }
 .guitarsound2 .sound{
   position: absolute;
-  width: 15px;
-  height: 400px;
-  left: 135px;
-  transform: rotate(2deg);
+  width: 10px;
+  height: 390px;
+  left: 153px;
+  transform: rotate(0.8deg);
+  top: 139px;
   
 }
 
 .guitarsound2 .cc{
-  left: 160px;
-  transform: rotate(1deg);
-}
-.guitarsound2 .ee{
-  left: 187px;
-  transform: rotate(0.5deg);
-}
-.guitarsound2 .aa{
-  left: 212px;
+  left: 166px;
   transform: rotate(0deg);
 }
+.guitarsound2 .ee{
+  left: 180px;
+  transform: rotate(-0.5deg);
+}
+.guitarsound2 .aa{
+  left: 193px;
+  transform: rotate(-1.3deg);
+}
 .guitarsound2 button{
-  opacity: 50%;
+  opacity: 30%;
+  text-transform: capitalize;
+  font-weight: 1000px;
+  color: red;
+  vertical-align: text-bottom;
 }
 .guitarsound2 button:hover{
   opacity: 50%;
