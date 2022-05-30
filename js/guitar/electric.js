@@ -14,6 +14,7 @@ function playguitar(key) {
     case "1":
       var tom1 = new Audio("../../sounds/guitar/electric/electric-E.mp3");
       tom1.play();
+      
       break;
 
     case "2":

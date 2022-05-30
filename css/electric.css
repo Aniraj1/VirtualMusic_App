@@ -94,8 +94,7 @@ h1 {
   text-align: center;
   font-size: 60px;
   margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 60px;
+  padding: 60px 0 0 0;
 }
 
 /* Strings */
@@ -118,7 +117,7 @@ h1 {
   background-image: url(../images/guitar/acoustic-ee.png);
 }
 
-.string {
+.set .string {
   width: 96px;
   height: 138px;
   margin: 50px 50px 10px 50px;
@@ -133,13 +132,13 @@ h1 {
   text-align: center;
 }
 
-button {
+.set div button {
   font-size: 0px;
   border: 2px solid #202046;
   border-radius: 10px;
 }
 
-button:hover{
+.set div button:hover{
   opacity: 70%;
 }
 
@@ -179,7 +178,7 @@ button:hover{
   .image div {
     margin: 50px 0;
   }
-  .string {
+  .set .string {
     margin-bottom: 0;
   }
 }
@@ -209,4 +208,91 @@ button:hover{
     center a:hover{
       opacity:60%;
     }
+
+/* Image String */
+.guitarsound {
+  position: relative;
+}
+.guitarsound .sound {
+  position: absolute;
+  width: 10px;
+  height: 470px;
+  left: 195px;
+  bottom: 220px;
+}
+
+.guitarsound .aa {
+  left: 205px;
+  transform: rotate(-0.5deg);
+}
+.guitarsound .dd {
+  left: 217px;
+  transform: rotate(-0.5deg);
+}
+.guitarsound .gg {
+  left: 230px;
+  transform: rotate(-1deg);
+}
+.guitarsound .bb {
+  left: 245px;
+  transform: rotate(-1deg);
+}
+.guitarsound .ee {
+  left: 260px;
+  transform: rotate(-1deg);
+}
+.guitarsound button {
+  opacity: 30%;
+  text-transform: capitalize;
+  font-weight: 1000px;
+  color: red;
+  vertical-align: text-bottom;
+}
+.guitarsound button:hover {
+  opacity: 50%;
+}
+
+.guitarsound2 {
+  position: relative;
+}
+.guitarsound2 .sound {
+  position: absolute;
+  width: 8px;
+  height: 395px;
+  left: 150px;
+  top: 122px;
+  transform: rotate(1deg);  
+}
+
+.guitarsound2 .aa {
+  left: 155px;
+}
+.guitarsound2 .dd {
+  left: 160px;
+  transform: rotate(0deg);
+}
+.guitarsound2 .gg {
+  left: 167px;
+  transform: rotate(0deg);
+}
+.guitarsound2 .bb {
+  left: 173px;
+  transform: rotate(0deg);
+}
+.guitarsound2 .ee {
+  left: 176px;
+  transform: rotate(-1.2deg);
+}
+.guitarsound2 button {
+  opacity: 30%;
+  text-transform: capitalize;
+  font-weight: 1000px;
+  color: red;
+  vertical-align: text-bottom;
+}
+.guitarsound2 button:hover {
+  opacity: 50%;
+}
+
+
     
