@@ -159,6 +159,9 @@ h1 {
     margin:40px 40px 0 40px;
   
   }
+  .main h1{
+    margin-bottom: 40px;
+  }
   .set{
     height: 600px;
   }
@@ -181,11 +184,14 @@ h1 {
   .set .string {
     margin-bottom: 0;
   }
+  nav div ul li {
+    margin: 0;
+    padding: 0;
+      }
 }
-@media (max-width: 1218px) {
-.set div button{
-  margin:20px 20px;
-
+@media (max-width: 1290px) {
+.set .string{
+  margin:20px;
 }
 }
 

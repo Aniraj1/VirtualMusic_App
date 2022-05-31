@@ -152,7 +152,7 @@ h1 {
 
 @media (max-width: 960px) {
   h1 {
-    padding: 40px 0 0 0;
+    padding: 40px 0 40px 0;
   }
 }
 @media (max-width: 860px) {
@@ -168,7 +168,7 @@ h1 {
     font-size: 22px;
   }
 }
-@media (max-width: 654px) {
+@media (max-width: 670px) {
   .set div {
     margin: 8px;
   }
@@ -180,6 +180,11 @@ h1 {
   .set div .string {
     margin-bottom: 0;
   }
+  nav div ul li {
+margin: 0;
+padding: 0;
+  }
+
 }
 @media (max-width: 1218px) {
   .set div button {
@@ -258,7 +263,6 @@ center a:hover {
   left: 90px;
   top: 55px;
   transform: rotate(2deg);
-  
 }
 
 .guitarsound2 .aa {
@@ -277,8 +281,8 @@ center a:hover {
   transform: rotate(0deg);
 }
 .guitarsound2 .ee {
-  left: 127px;
-  transform: rotate(-1.2deg);
+  left: 125px;
+  transform: rotate(-1.5deg);
 }
 .guitarsound2 button {
   opacity: 30%;

@@ -94,38 +94,44 @@
 
   @media(max-width:1490px){
     .main div {
-      margin:100px 100px;
+      margin:120px 120px;
     }
     
   }
   @media(max-width:1280px){
     .main div {
-      margin:100px 60px;
+      margin:120px 20px;
     }
     
-  }
-  @media(max-width:1126px){
-    .main div {
-      margin:100px 60px;
-    }
+
     
   }
   @media(max-width:1000px){
     .main div {
-      margin:140px 40px;
+      margin:160px 20px;
+    }
+    
+  }
+  @media(max-width:950px){
+    .main{
+      height: 100%;
     }
     
   }
   @media(max-width:884px){
     .main div {
-      margin:130px 150px 0px 100px;
+      margin:140px 10px 20px 10px;
     }
-
+    
     .electric{
       padding-bottom: 150px;
     }
     
   }
+  @media(max-width:700px){
+    .main div {
+      margin:100px 40px 20px 100px;
+    }
   
   /* Footer */
 
