@@ -66,8 +66,22 @@
     
   }
   /* Main */
-h1, .text{
+  .main{
+    height: 100vh;
+  }
+h1, p{
   text-align: center;
+
+}
+h1{
+  margin: 100px 0 20px 0;
+}
+
+p{
+  margin: 0 0 100px 0;
+}
+.main a{
+  text-decoration: underline ;
 }
 
 .keyboard{
@@ -75,7 +89,6 @@ h1, .text{
   border: 1px solid black;
   height: 300px;
   width: 800px;
-  
 }
 
 .keyboard .key{

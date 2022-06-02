@@ -58,9 +58,7 @@
       font-size: larger;
       line-height: 40px;
     }
-    nav{
-      position: fixed;
-    }
+
     nav div ul li{
       margin: 0;
       padding: 0;
@@ -68,6 +66,20 @@
     }
 
     
+  }
+  @media(max-width:400px){
+    nav div ul li a{
+      margin: 0;
+      padding: 0;
+      font-size: 8px;
+    
+    }
+    .logo{
+      font-size: 15px;
+    }
+    .main .img{
+      margin: 20px;
+    }
   }
 
   /* Main */

@@ -75,8 +75,8 @@ nav li a:hover {
 
 .main div {
   display: inline-block;
- margin:140px 140px 300px 140px;
- color: black;
+  margin:140px 140px 300px 140px;
+  color: black;
 }
 
 .main i {
@@ -90,6 +90,7 @@ nav li a:hover {
 
 .main {
   text-align: center;
+  height: 100%;
 }
 
 .main div p {
