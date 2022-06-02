@@ -57,11 +57,37 @@
       font-size: larger;
       line-height: 40px;
     }
-    nav{
-      position: fixed;
+    nav div ul li{
+      margin: 0;
+      padding: 0;
+    
     }
+  
     
   }
+  /* Main */
+h1, .text{
+  text-align: center;
+}
+
+.keyboard{
+  position: relative;
+  border: 1px solid black;
+  height: 300px;
+  width: 800px;
+  
+}
+
+.keyboard .key{
+  position: absolute;
+  width: 45px;
+  z-index: -1;
+}
+.keyboard .white{
+  position: absolute;
+  width: 45px;
+  z-index: 1;
+}
 
     /* Footer */
 

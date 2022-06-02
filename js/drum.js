@@ -2,8 +2,7 @@ var number = document.querySelectorAll(".string").length;
 for (var i = 0; i < number; i++) {
   document.querySelectorAll("button")[i].addEventListener("click", function () {
     var key = this.innerHTML;
-    playdrum(key);
-  });
+    playdrum(key);  });
 }
 document.addEventListener("keypress", function (event) {
   playdrum(event.key);
