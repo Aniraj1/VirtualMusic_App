@@ -328,6 +328,16 @@ p {
     background-image: url('../images/drum/drum1.png');
     height: 250px;
     width: 375px;
+    margin: 40px auto;
+
+  }
+  .text{
+    font-size: 17px;
+  }
+
+  .main h1{
+    font-size: 40px;
+    margin: 0;
   }
 
   .image .hihat {
