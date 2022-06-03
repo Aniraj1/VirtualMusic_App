@@ -207,7 +207,7 @@ h1 {
       background:
       #202046 ;
       color: 	 #a7a7d7;
-      font-size: 10px;
+      font-size: 15px;
       padding: 10px;
     }
   
@@ -305,5 +305,13 @@ h1 {
   opacity: 50%;
 }
 
+/* Animation Button */
 
-    
+.set .string{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+
+.set .string:hover{
+  box-shadow: 0 0px 10px rgba(0, 0, 0, .5);
+  transform: scale(.95);
+}

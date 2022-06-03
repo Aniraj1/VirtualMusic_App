@@ -58,276 +58,348 @@ nav li a:hover {
     font-size: larger;
     line-height: 40px;
   }
-  nav div ul li{
+  nav div ul li {
     margin: 0;
     padding: 0;
   }
-
 }
 /* Main */
 
 .main {
-height: 100%;
+  height: 100%;
 }
 
 .image {
-text-align: center;
+  text-align: center;
 }
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
 .image div {
-display: inline-block;
+  display: inline-block;
 }
 .image div p {
-margin: 20px;
-font-weight: 600;
+  margin: 20px;
+  font-weight: 600;
 }
 
-
 h1 {
-text-align: center;
-font-size: 60px;
-margin-top: 40px;
-padding: 60px 0 0 0;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 40px;
+  padding: 60px 0 0 0;
 }
 
 /* Parts od drum */
- .set .hihat {
-background-image: url(../images/drum/hihat.png);
+.set .hihat {
+  background-image: url(../images/drum/hihat.png);
 }
- .set .crash {
-background-image: url(../images/drum/crash.png);
+.set .crash {
+  background-image: url(../images/drum/crash.png);
 }
 .set .kick {
-background-image: url(../images/drum/bass.png);
+  background-image: url(../images/drum/bass.png);
 }
 .set .snare {
-background-image: url(../images/drum/snare.png);
+  background-image: url(../images/drum/snare.png);
 }
-.set .tom4{
-background-image: url(../images/drum/tom4.png);
+.set .tom4 {
+  background-image: url(../images/drum/tom4.png);
 }
 .set .tom3 {
-background-image: url(../images/drum/tom3.png);
+  background-image: url(../images/drum/tom3.png);
 }
 .set .tom2 {
-background-image: url(../images/drum/tom2.png);
+  background-image: url(../images/drum/tom2.png);
 }
 .set .tom1 {
-background-image: url(../images/drum/tom1.png);
+  background-image: url(../images/drum/tom1.png);
 }
 
 .set .string {
-width: 96px;
-height: 138px;
+  width: 96px;
+  height: 138px;
 }
 
 .set div {
-display: inline-block;
-margin-bottom: 120px;
+  display: inline-block;
+  margin-bottom: 120px;
 }
 
 .set {
-text-align: center;
+  text-align: center;
+  height: 100%;
 }
 
 .set div button {
-font-size: 0px;
-border: 2px solid #202046;
-border-radius: 10px;
-margin: 10px;
+  font-size: 0px;
+  border: 2px solid #202046;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.set div button:hover{
-opacity: 70%;
+.set div button:hover {
+  opacity: 70%;
 }
-.closeup{
+.closeup {
   width: 100vh;
 }
 .text {
-text-align: center;
-font-size: x-large;
-margin: 80px;
-font-weight: 600;
+  text-align: center;
+  font-size: x-large;
+  margin: 80px;
+  font-weight: 600;
 }
 
 @media (max-width: 960px) {
-h1 {
-  padding: 40px 0 0 0;
-}
-.set div button {
-  margin: 0px;
+  h1 {
+    padding: 40px 0 0 0;
   }
-  
+  .set div button {
+    margin: 0px;
+  }
 }
 @media (max-width: 860px) {
 
-.set{
-  height: 600px;
-}
-.text{
-  margin-top: 0px;
-  margin-bottom: 80px;
-  font-size: 22px;
-}
-.set div button {
-  margin: 0 20px;
+  .text {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    font-size: 22px;
   }
-  .set div{
+  .set div button {
+    margin: 0 20px;
+  }
+  .set div {
+    margin: 10px;
+  }
+  .set div p{
     margin: 20px;
   }
-  .main .text{
+  .main .text {
     margin-top: 40px;
   }
-
-
 }
 
 @media (max-width: 580px) {
+  .set .string {
+    margin: 0;
+  }
 
-.set .string {
-  margin: 0;
-}
-
-.text{
-  font-size: 18px;
-  margin: 10px 10px 40px 10px;
-}
-.main h1{
-  margin-top: 0;
-}
+  .text {
+    font-size: 18px;
+    margin: 10px 10px 40px 10px;
+  }
+  .main h1 {
+    margin-top: 0;
+  }
 }
 @media (max-width: 400px) {
-  
-  .image div p{
+  .image div p {
     margin: 0px;
   }
-  .set div{
-  margin: 2px;
+  .set div {
+    margin: 2px;
+  }
+  .set div {
+    margin-bottom: 40px;
+  }
+  nav div ul li a {
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+  }
+  .logo {
+    font-size: 15px;
+  }
 }
-.set div{
-  margin-bottom: 40px;
-}
-nav div ul li a{
-  margin: 0;
-  padding: 0;
-  font-size: 8px;
 
-}
-.logo{
+
+/* Footer */
+
+center {
+  background: #202046;
+  color: #a7a7d7;
   font-size: 15px;
+  padding: 10px;
 }
+
+center a {
+  color: white;
+  text-decoration: underline;
 }
 
-
-  /* Footer */
-
-  center{
-    background:
-    #202046 ;
-    color: 	 #a7a7d7;
-    font-size: 10px;
-    padding: 10px;
-  }
-
-  center a{
-    color: white;
-    text-decoration: underline;
-  }
-  
-  center a:hover{
-    opacity:60%;
-  }
+center a:hover {
+  opacity: 60%;
+}
 
 /* Image String */
-.guitars {
-position: relative;
-}
-.guitars .sound {
-position: absolute;
-left: 0;
+.image {
+  background-image: url("../images/drum/drum.png");
+  height: 600px;
+  width: 900px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
 }
 
-.guitars .hihat{
-left: 30px;
-top: 105px;
-height: 30px;
-width: 147px;
-border-radius: 40%;
-transform: rotate(-1deg);
+.image button {
+  position: absolute;
 }
-.guitars .crash{
-left: 507px;
-top: 43px;
-height:90px;
-width: 200px;
-border-radius: 50%;
-transform: rotate(-23deg);
+
+.image .hihat {
+  left: 35px;
+  top: 120px;
+  height: 30px;
+  width: 165px;
+  border-radius: 40%;
+  transform: rotate(-1deg);
 }
-.guitars .kick{
-  left: 270px;
-  top: 220px;
-  height: 190px;
-  width: 190px;
+.image .crash {
+  left: 575px;
+  top: 52px;
+  height: 100px;
+  width: 230px;
+  border-radius: 50%;
+  transform: rotate(-22deg);
+}
+.image .kick {
+  left: 310px;
+  top: 255px;
+  height: 215px;
+  width: 215px;
   border-radius: 50%;
 }
-.guitars .snare{
+.image .snare {
   top: 15px;
-  left: 150px;
-  height: 78px;
-  width: 150px;
+  left: 175px;
+  height: 90px;
+  width: 168px;
   border-radius: 50%;
 }
-.guitars .tom1{
-  top: 165px;
-  left: 133px;
-  height: 55px;
-  width: 122px;
+.image .tom1 {
+  top: 185px;
+  left: 145px;
+  height: 65px;
+  width: 145px;
   border-radius: 50%;
-  
 }
-.guitars .tom2{
-  top: 112px;
-  left: 270px;
-  height: 15px;
-  width: 80px;
+.image .tom2 {
+  top: 125px;
+  left: 310px;
+  height: px;
+  width: 90px;
   border-radius: 50%;
   transform: rotate(-1deg);
 }
-.guitars .tom3{
-  top: 105px;
-  left: 380px;
-  height: 18px;
-  width:100px;
+.image .tom3 {
+  top: 120px;
+  left: 432px;
+  height: 25px;
+  width: 120px;
   border-radius: 50%;
   transform: rotate(1deg);
-  
 }
-.guitars .tom4{
-  top: 185px;
-  left: 497px;
-  height: 30px;
-  width: 138px;
+.image .tom4 {
+  top: 210px;
+  left: 565px;
+  height: 45px;
+  width: 163px;
   border-radius: 50%;
-
 }
-.guitars button {
-opacity: 20%;
-text-transform: capitalize;
-font-weight: 1000px;
-color: red;
-vertical-align: text-bottom;
+.image button {
+  opacity: 20%;
+  text-transform: capitalize;
+  font-weight: 1000px;
+  color: red;
+  vertical-align: text-bottom;
 }
-.guitars button:hover {
-opacity: 40%;
-} 
+.image button:hover {
+  opacity: 40%;
+}
 
-@media(max-width:780px){
-  .guitars button{
-    display: none;
+p {
+  text-align: center;
+}
+@media (max-width: 970px) {
+
+  .image {
+    background-image: url('../images/drum/drum1.png');
+    height: 250px;
+    width: 375px;
   }
 
+  .image .hihat {
+    left: 15px;
+    top: 50px;
+    height: 15px;
+    width: 70px;
+    border-radius: 40%;
+    transform: rotate(-1deg);
+  }
+  .image .crash {
+    left:240px;
+    top: 20px;
+    height: 45px;
+    width: 95px;
+    border-radius: 50%;
+    transform: rotate(-22deg);
+  }
+  .image .kick {
+    left: 128px;
+    top: 103px;
+    height: 92px;
+    width: 92px;
+    border-radius: 50%;
+  }
+  .image .snare {
+    top: 8px;
+    left: 71px;
+    height: 35px;
+    width: 72px;
+    border-radius: 50%;
+  }
+  .image .tom1 {
+    top: 78px;
+    left: 60px;
+    height: 50px;
+    width: 63px;
+    border-radius: 40%;
+  }
+  .image .tom2 {
+    top: 50px;
+    left: 125px;
+    height: 45px;
+    width: 45px;
+    border-radius: 35%;
+    transform: rotate(-1deg);
+  }
+  .image .tom3 {
+    top: 50px;
+    left: 180px;
+    height: 45px;
+    width: 50px;
+    border-radius: 35%;
+    transform: rotate(1deg);
+  }
+  .image .tom4 {
+    top: 87px;
+    left: 235px;
+    height: 90px;
+    width: 67px;
+    border-radius: 25%;
+  }
 }
+
+/* Animation Button */
+
+.set .string{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+
+.set .string:hover{
+  box-shadow: 0 0px 10px rgba(0, 0, 0, .5);
+  transform: scale(.95);
+}
+
