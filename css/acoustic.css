@@ -64,6 +64,29 @@ nav li a:hover {
   }
 
 }
+@media (max-width: 450px) {
+  .logo {
+    font-size: medium;
+    line-height: 40px;
+  }
+  nav div ul li{
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+  }
+  .main h1{
+    margin: 0;
+    font-size: 40px;
+  }
+  div.text{
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  div.main {
+    margin: 0;
+  }
+
+}
 
 /* Main */
 
@@ -204,6 +227,7 @@ center {
   color: #a7a7d7;
   font-size: 15px;
   padding: 10px;
+  margin-top: 30px;
 }
 
 center a {

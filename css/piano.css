@@ -62,11 +62,22 @@ nav li a:hover {
     padding: 0;
   }
 }
+@media (max-width: 450px) {
+  .logo {
+    font-size: medium;
+    line-height: 40px;
+  }
+  nav div ul li{
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+  }
+}
 /* Main */
 .main {
   height: 100%;
   text-align: center;
-  padding-bottom: 170px;
+  padding-bottom: 220px;
 }
 
 h1 {
@@ -96,6 +107,9 @@ center a {
 center a:hover {
   opacity: 60%;
 }
+footer{
+  position: fixed;
+}
 
 /* Keyboard */
 
@@ -106,12 +120,21 @@ center a:hover {
   margin: 20px auto;
   height: 253px;
   width: 791px;
+  
 }
 
 .keyboard button {
   position: absolute;
+  font-size: 15px;
 }
-
+.key p{
+  font-size: x-large;
+  color: black;
+}
+.white p{
+  font-size: larger;
+  color:red;
+}
 .key {
   top: 145px;
   left: 3.5px;
@@ -221,3 +244,72 @@ center a:hover {
 .ANS {
   left: 715px;
 }
+span .key{
+  color: red;
+}
+
+@media(max-width:810px){
+  .keyboard{
+    background-image: url(../images/piano/hi.png);
+    height: 276px;
+    width: 438px;
+  }
+
+ .CN,.CNS, .DN, .DNS, .EN,.FN,.FNS ,.GN,.GNS,.AN,.ANS,.BN{
+    left: 0px;
+    display: none;
+  }
+
+.key{
+  top: 158px;
+  left: 1.5px;
+  width: 60px;
+  height: 115px;
+}
+.D{
+  left: 64px;
+}
+
+.E {
+  left: 126px;
+}
+
+.F {
+  left:188px;
+}
+
+.G {
+  left: 250px;
+}
+
+.A {
+  left: 313px;
+}
+
+.B {
+  left: 375px;
+}
+
+.white {
+  top: 1px;
+  left: 46px;
+  width: 34px;
+  height: 158px;
+}
+.DS {
+  left: 108px;
+}
+
+.FS {
+  left: 233px;
+}
+
+.GS {
+  left: 294px;
+}
+
+.AS {
+  left: 357px;
+}
+}
+

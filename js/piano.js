@@ -7,6 +7,7 @@ for (var i = 0; i < number; i++) {
 }
 document.addEventListener("keypress", function (event) {
   playdrum(event.key);
+  alert(key);
 });
 
 function playdrum(key) {
@@ -107,7 +108,7 @@ function playdrum(key) {
       break;
 
     case "x":
-      var tom20= new Audio("../sounds/piano/5/G.mp3");
+      var tom20 = new Audio("../sounds/piano/5/G.mp3");
       tom20.play();
       break;
 
