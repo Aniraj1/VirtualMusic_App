@@ -11,7 +11,7 @@ document.addEventListener("keypress", function (event) {
 
 function playdrum(key) {
   switch (key) {
-    case "Q":
+    case "q":
       var tom1 = new Audio("../sounds/piano/4/C.mp3");
       tom1.play();
       break;
@@ -21,7 +21,7 @@ function playdrum(key) {
       tom2.play();
       break;
 
-    case "W":
+    case "w":
       var tom3 = new Audio("../sounds/piano/4/D.mp3");
       tom3.play();
       break;
@@ -31,12 +31,12 @@ function playdrum(key) {
       tom4.play();
       break;
 
-    case "E":
+    case "e":
       var tom5 = new Audio("../sounds/piano/4/E.mp3");
       tom5.play();
       break;
 
-    case "R":
+    case "r":
       var tom6 = new Audio("../sounds/piano/4/F.mp3");
       tom6.play();
       break;
@@ -46,7 +46,7 @@ function playdrum(key) {
       tom7.play();
       break;
 
-    case "T":
+    case "t":
       var tom8 = new Audio("../sounds/piano/4/G.mp3");
       tom8.play();
       break;
@@ -56,7 +56,7 @@ function playdrum(key) {
       tom9.play();
       break;
 
-    case "Y":
+    case "y":
       var tom10 = new Audio("../sounds/piano/4/A.mp3");
       tom10.play();
       break;
@@ -66,12 +66,12 @@ function playdrum(key) {
       tom11.play();
       break;
 
-    case "U":
+    case "u":
       var tom12 = new Audio("../sounds/piano/4/B.mp3");
       tom12.play();
       break;
 
-    case "I":
+    case "i":
       var tom13 = new Audio("../sounds/piano/5/C.mp3");
       tom13.play();
       break;
@@ -81,7 +81,7 @@ function playdrum(key) {
       tom14.play();
       break;
 
-    case "O":
+    case "o":
       var tom15 = new Audio("../sounds/piano/5/D.mp3");
       tom15.play();
       break;
@@ -91,42 +91,42 @@ function playdrum(key) {
       tom16.play();
       break;
 
-    case "P":
+    case "p":
       var tom17 = new Audio("../sounds/piano/5/E.mp3");
       tom17.play();
       break;
 
-    case "Z":
+    case "z":
       var tom18 = new Audio("../sounds/piano/5/F.mp3");
       tom18.play();
       break;
 
-    case "S":
+    case "s":
       var tom19 = new Audio("../sounds/piano/5/FS.mp3");
       tom19.play();
       break;
 
-    case "X":
+    case "x":
       var tom20= new Audio("../sounds/piano/5/G.mp3");
       tom20.play();
       break;
 
-    case "D":
+    case "d":
       var tom21 = new Audio("../sounds/piano/5/GS.mp3");
       tom21.play();
       break;
 
-    case "C":
+    case "c":
       var tom22 = new Audio("../sounds/piano/5/A.mp3");
       tom22.play();
       break;
 
-    case "F":
+    case "f":
       var tom23 = new Audio("../sounds/piano/5/AS.mp3");
       tom23.play();
       break;
 
-    case "V":
+    case "v":
       var tom24 = new Audio("../sounds/piano/5/B.mp3");
       tom24.play();
       break;

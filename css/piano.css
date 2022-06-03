@@ -1,185 +1,181 @@
 * {
-    padding: 0px;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: "Exo", sans-serif;
-  }
-  /* Header */
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Exo", sans-serif;
+}
+/* Header */
 
 .logo {
-    color: white;
-    font-size: 30px;
+  color: white;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+nav {
+  background-color: #202046;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-size: small;
+}
+nav ul li a {
+  color: white;
+  padding: 5px;
+}
+
+.nav-bar {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+
+nav li a:hover {
+  color: #9595d0;
+  transition: 0.3s;
+}
+
+.logo a {
+  color: white;
+}
+
+.logo a:hover {
+  color: white;
+  opacity: 80%;
+}
+
+@media (max-width: 952px) {
+  .logo {
+    font-size: larger;
     line-height: 40px;
   }
-  
-  nav {
-    background-color: #202046;
-    height: 80px;
-    width: 100%;
-    padding: 20px;
+  nav div ul li {
+    margin: 0;
+    padding: 0;
   }
-  
-  nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-    text-transform: uppercase;
-    font-size: small;
-  }
-  nav ul li a {
-    color: white;
-    padding: 5px;
-  }
-  
-  .nav-bar {
-    position: absolute;
-    right: 50px;
-    top: 30px;
-  }
-  
-  nav li a:hover {
-    color: #9595d0;
-    transition: 0.3s;
-  }
-  
-  .logo a{
-    color: white;
-  }
-  
-  .logo a:hover{
-    color: white;
-    opacity: 80%;
-  }
-  
-  @media (max-width: 952px) {
-    .logo {
-      font-size: larger;
-      line-height: 40px;
-    }
-    nav div ul li{
-      margin: 0;
-      padding: 0;
-    
-    }
-  
-    
-  }
-  /* Main */
-  .main{
-    height: 100%;
-    text-align: center;
-    padding-bottom: 100px;
-  }
-
-h1{
-  margin: 50px ;
+}
+/* Main */
+.main {
+  height: 100%;
+  text-align: center;
+  padding-bottom: 170px;
 }
 
-.text{
+h1 {
+  margin: 50px;
+}
+
+.text,
+p {
   padding: 0 0 40px 0;
+  font-weight: bold;
 }
 
-    /* Footer */
+/* Footer */
 
-    center{
-      background:
-      #202046 ;
-      color: 	 #a7a7d7;
-      font-size: 15px;
-      padding: 10px;
-    }
-  
-    center a{
-      color: white;
-      text-decoration: underline;
-    }
-    
-    center a:hover{
-      opacity:60%;
-    }
+center {
+  background: #202046;
+  color: #a7a7d7;
+  font-size: 15px;
+  padding: 10px;
+}
+
+center a {
+  color: white;
+  text-decoration: underline;
+}
+
+center a:hover {
+  opacity: 60%;
+}
 
 /* Keyboard */
 
-.keyboard{
-  background-image: url('../images/piano/piano.png');
+.keyboard {
+  background-image: url("../images/piano/piano.png");
   background-repeat: no-repeat;
   position: relative;
   margin: 20px auto;
   height: 253px;
-  width:791px;
-
+  width: 791px;
 }
 
-.keyboard button{
+.keyboard button {
   position: absolute;
 }
 
-.key{
+.key {
   top: 145px;
- left: 3.5px;
- width: 55px;
- height: 103px;
- opacity: 20%;
+  left: 3.5px;
+  width: 55px;
+  height: 103px;
+  opacity: 20%;
 }
-.key:hover{
+.key:hover {
   opacity: 50%;
-
 }
 
-.D{
+.D {
   left: 60px;
 }
 
-.E{
+.E {
   left: 115px;
 }
-    
-.F{
+
+.F {
   left: 170px;
 }
-    
-.G{
+
+.G {
   left: 225px;
 }
-    
-.A{
+
+.A {
   left: 283px;
 }
-    
-.B{
+
+.B {
   left: 340px;
 }
-    
-.CN{
+
+.CN {
   left: 395px;
 }
-    
-.DN{
+
+.DN {
   left: 451px;
 }
 
-.EN{
-  left:506px
+.EN {
+  left: 506px;
 }
-    
-.FN{
+
+.FN {
   left: 564px;
 }
-    
-.GN{
+
+.GN {
   left: 620px;
 }
-    
-.AN{
+
+.AN {
   left: 675px;
 }
-    
-.BN{
+
+.BN {
   left: 730px;
 }
 
-.white{
+.white {
   top: 6px;
   left: 45px;
   width: 30px;
@@ -187,42 +183,41 @@ h1{
   opacity: 20%;
 }
 
-.white:hover{
+.white:hover {
   opacity: 40%;
-
 }
-.DS{
-left: 100px;
+.DS {
+  left: 100px;
 }
 
-.FS{
+.FS {
   left: 212px;
 }
 
-.GS{
+.GS {
   left: 267px;
 }
 
-.AS{
+.AS {
   left: 324px;
 }
 
-.CNS{
+.CNS {
   left: 436px;
 }
 
-.DNS{
+.DNS {
   left: 493px;
 }
 
-.FNS{
+.FNS {
   left: 604px;
 }
 
-.GNS{
-left: 659px;
+.GNS {
+  left: 659px;
 }
 
-.ANS{
+.ANS {
   left: 715px;
 }
