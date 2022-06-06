@@ -1,27 +1,29 @@
 document.addEventListener("keypress", function (event) {
   var key = event.key;
   playdrum(key);
-  var mynew = document.querySelector("."+ key).className.split(" ")[0];
-  document.querySelector("."+ key).innerHTML = mynew;
-  $("."+ key).addClass("op");
-  setTimeout(function(){
-    document.querySelector("."+ key).innerHTML = key;
-   $("."+ key).removeClass("op");}
-  ,500)
-
+  var mynew = document.querySelector("." + key).className.split(" ")[0];
+  document.querySelector("." + key).innerHTML = mynew;
+  $("." + key).addClass("op");
+  setTimeout(function () {
+    document.querySelector("." + key).innerHTML = key;
+    $("." + key).removeClass("op");
+  }, 300);
 });
 
 $("button").click(function () {
   playkey($(this).attr("class").split(" ")[0]);
 });
 
-$("button").hover(function(){
-  original = $(this).html();
-  var mytxt = $(this).attr("class").split(" ")[0];
-  $(this).html(mytxt);
-}, function(){
- $(this).html(original);
-})
+$("button").hover(
+  function () {
+    original = $(this).html();
+    var mytxt = $(this).attr("class").split(" ")[0];
+    $(this).html(mytxt);
+  },
+  function () {
+    $(this).html(original);
+  }
+);
 
 function playdrum(key) {
   switch (key) {
@@ -152,7 +154,6 @@ function playdrum(key) {
 
 function playkey(key) {
   switch (key) {
-
     case "C4":
       var tom1 = new Audio("../sounds/piano/4/C.mp3");
       tom1.play();
