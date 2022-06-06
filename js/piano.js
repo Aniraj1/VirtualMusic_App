@@ -1,5 +1,14 @@
 document.addEventListener("keypress", function (event) {
-  playdrum(event.key);
+  var key = event.key;
+  playdrum(key);
+  var mynew = document.querySelector("."+ key).className.split(" ")[0];
+  document.querySelector("."+ key).innerHTML = mynew;
+  $("."+ key).addClass("op");
+  setTimeout(function(){
+    document.querySelector("."+ key).innerHTML = key;
+   $("."+ key).removeClass("op");}
+  ,500)
+
 });
 
 $("button").click(function () {
@@ -144,122 +153,122 @@ function playdrum(key) {
 function playkey(key) {
   switch (key) {
 
-    case "C":
+    case "C4":
       var tom1 = new Audio("../sounds/piano/4/C.mp3");
       tom1.play();
       break;
 
-    case "CS":
+    case "C4S":
       var tom2 = new Audio("../sounds/piano/4/CS.mp3");
       tom2.play();
       break;
 
-    case "D":
+    case "D4":
       var tom3 = new Audio("../sounds/piano/4/D.mp3");
       tom3.play();
       break;
 
-    case "DS":
+    case "D4S":
       var tom4 = new Audio("../sounds/piano/4/DS.mp3");
       tom4.play();
       break;
 
-    case "E":
+    case "E4":
       var tom5 = new Audio("../sounds/piano/4/E.mp3");
       tom5.play();
       break;
 
-    case "F":
+    case "F4":
       var tom6 = new Audio("../sounds/piano/4/F.mp3");
       tom6.play();
       break;
 
-    case "FS":
+    case "F4S":
       var tom7 = new Audio("../sounds/piano/4/FS.mp3");
       tom7.play();
       break;
 
-    case "G":
+    case "G4":
       var tom8 = new Audio("../sounds/piano/4/G.mp3");
       tom8.play();
       break;
 
-    case "GS":
+    case "G4S":
       var tom9 = new Audio("../sounds/piano/4/GS.mp3");
       tom9.play();
       break;
 
-    case "A":
+    case "A4":
       var tom10 = new Audio("../sounds/piano/4/A.mp3");
       tom10.play();
       break;
 
-    case "AS":
+    case "A4S":
       var tom11 = new Audio("../sounds/piano/4/AS.mp3");
       tom11.play();
       break;
 
-    case "B":
+    case "B4":
       var tom12 = new Audio("../sounds/piano/4/B.mp3");
       tom12.play();
       break;
 
-    case "C":
+    case "C5":
       var tom13 = new Audio("../sounds/piano/5/C.mp3");
       tom13.play();
       break;
 
-    case "CNS":
+    case "C5S":
       var tom14 = new Audio("../sounds/piano/5/CS.mp3");
       tom14.play();
       break;
 
-    case "DN":
+    case "D5":
       var tom15 = new Audio("../sounds/piano/5/D.mp3");
       tom15.play();
       break;
 
-    case "DNS":
+    case "D5S":
       var tom16 = new Audio("../sounds/piano/5/DS.mp3");
       tom16.play();
       break;
 
-    case "EN":
+    case "E5":
       var tom17 = new Audio("../sounds/piano/5/E.mp3");
       tom17.play();
       break;
 
-    case "FN":
+    case "F5":
       var tom18 = new Audio("../sounds/piano/5/F.mp3");
       tom18.play();
       break;
 
-    case "FNS":
+    case "F5S":
       var tom19 = new Audio("../sounds/piano/5/FS.mp3");
       tom19.play();
       break;
 
-    case "GN":
+    case "G5":
       var tom20 = new Audio("../sounds/piano/5/G.mp3");
       tom20.play();
       break;
 
-    case "GNS":
+    case "G5S":
       var tom21 = new Audio("../sounds/piano/5/GS.mp3");
       tom21.play();
       break;
 
-    case "AN":
+    case "A5":
       var tom22 = new Audio("../sounds/piano/5/A.mp3");
       tom22.play();
       break;
 
-    case "ANS":
+    case "A5S":
       var tom23 = new Audio("../sounds/piano/5/AS.mp3");
       tom23.play();
       break;
 
-    case "BN":
+    case "B5":
       var tom24 = new Audio("../sounds/piano/5/B.mp3");
       tom24.play();
       break;

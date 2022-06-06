@@ -146,58 +146,58 @@ footer{
   opacity: 50%;
 }
 
-.D {
+.D4 {
   left: 60px;
 }
-.D:hover {
+.D4:hover {
   content: "D";
 }
 
-.E {
+.E4 {
   left: 115px;
 }
 
-.F {
+.F4 {
   left: 170px;
 }
 
-.G {
+.G4 {
   left: 225px;
 }
 
-.A {
+.A4 {
   left: 283px;
 }
 
-.B {
+.B4 {
   left: 340px;
 }
 
-.CN {
+.C5 {
   left: 395px;
 }
 
-.DN {
+.D5 {
   left: 451px;
 }
 
-.EN {
+.E5 {
   left: 506px;
 }
 
-.FN {
+.F5 {
   left: 564px;
 }
 
-.GN {
+.G5 {
   left: 620px;
 }
 
-.AN {
+.A5 {
   left: 675px;
 }
 
-.BN {
+.B5 {
   left: 730px;
 }
 
@@ -212,39 +212,39 @@ footer{
 .white:hover {
   opacity: 40%;
 }
-.DS {
+.D4S {
   left: 100px;
 }
 
-.FS {
+.F4S {
   left: 212px;
 }
 
-.GS {
+.G4S {
   left: 267px;
 }
 
-.AS {
+.A4S {
   left: 324px;
 }
 
-.CNS {
+.C5S {
   left: 436px;
 }
 
-.DNS {
+.D5S {
   left: 493px;
 }
 
-.FNS {
+.F5S {
   left: 604px;
 }
 
-.GNS {
+.G5S {
   left: 659px;
 }
 
-.ANS {
+.A5S {
   left: 715px;
 }
 span .key{
@@ -258,7 +258,7 @@ span .key{
     width: 438px;
   }
 
- .CN,.CNS, .DN, .DNS, .EN,.FN,.FNS ,.GN,.GNS,.AN,.ANS,.BN{
+ .C5,.C5S, .D5, .D5S, .E5,.F5,.F5S ,.G5,.G5S,.A5,.A5S,.B5{
     left: 0px;
     display: none;
   }
@@ -269,27 +269,27 @@ span .key{
   width: 60px;
   height: 115px;
 }
-.D{
+.D4{
   left: 64px;
 }
 
-.E {
+.E4 {
   left: 126px;
 }
 
-.F {
+.F4 {
   left:188px;
 }
 
-.G {
+.G4 {
   left: 250px;
 }
 
-.A {
+.A4 {
   left: 313px;
 }
 
-.B {
+.B4 {
   left: 375px;
 }
 
@@ -299,19 +299,23 @@ span .key{
   width: 34px;
   height: 158px;
 }
-.DS {
+.D4S {
   left: 108px;
 }
 
-.FS {
+.F4S {
   left: 233px;
 }
 
-.GS {
+.G4S {
   left: 294px;
 }
 
-.AS {
+.A4S {
   left: 357px;
 }
+}
+
+.op{
+  opacity: 50%;
 }
