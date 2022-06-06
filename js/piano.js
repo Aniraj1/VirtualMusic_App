@@ -4,11 +4,18 @@ for (var i = 0; i < number; i++) {
     var key = this.innerHTML;
     playdrum(key);
   });
+
+  document.querySelectorAll("button")[i].addEventListener("mouseover", function () {
+    var key = this.innerHTML;
+    changedrum(key,i);
+  });
+
+
 }
 document.addEventListener("keypress", function (event) {
   playdrum(event.key);
-  alert(key);
 });
+
 
 function playdrum(key) {
   switch (key) {
@@ -130,6 +137,109 @@ function playdrum(key) {
     case "v":
       var tom24 = new Audio("../sounds/piano/5/B.mp3");
       tom24.play();
+      break;
+
+    default:
+      console.log(key);
+  }
+}
+
+function changedrum(key,i) {
+  switch (key) {
+    case "q":
+  document.querySelectorAll("button")[i].innerHTML="C";
+      break;
+
+    case "2":
+      document.querySelectorAll("button")[i].innerHTML="C#";
+      break;
+
+    case "w":
+      document.querySelectorAll("button")[i].innerHTML="D";
+      break;
+
+    case "3":
+      document.querySelectorAll("button")[i].innerHTML="D#";
+      break;
+
+    case "e":
+      document.querySelectorAll("button")[i].innerHTML="E";
+      break;
+
+    case "r":
+      document.querySelectorAll("button")[i].innerHTML="F";
+      break;
+
+    case "5":
+      document.querySelectorAll("button")[i].innerHTML="F#";
+      break;
+
+    case "t":
+      document.querySelectorAll("button")[i].innerHTML="G";
+      break;
+
+    case "6":
+      document.querySelectorAll("button")[i].innerHTML="G#";
+      break;
+
+    case "y":
+      document.querySelectorAll("button")[i].innerHTML="A";
+      break;
+
+    case "7":
+      document.querySelectorAll("button")[i].innerHTML="A#";
+      break;
+
+    case "u":
+      document.querySelectorAll("button")[i].innerHTML="B";
+      break;
+
+    case "i":
+      document.querySelectorAll("button")[i].innerHTML="C";
+      break;
+
+    case "9":
+      document.querySelectorAll("button")[i].innerHTML="C#";
+      break;
+
+    case "o":
+      document.querySelectorAll("button")[i].innerHTML="D";
+      break;
+
+    case "0":
+      document.querySelectorAll("button")[i].innerHTML="D#";
+      break;
+
+    case "p":
+      document.querySelectorAll("button")[i].innerHTML="E";
+      break;
+
+    case "z":
+      document.querySelectorAll("button")[i].innerHTML="F";
+      break;
+
+    case "s":
+      document.querySelectorAll("button")[i].innerHTML="F#";
+      break;
+
+    case "x":
+      document.querySelectorAll("button")[i].innerHTML="G";
+      break;
+
+    case "d":
+      document.querySelectorAll("button")[i].innerHTML="G#";
+      break;
+
+    case "c":
+      document.querySelectorAll("button")[i].innerHTML="A";
+      break;
+
+    case "f":
+      document.querySelectorAll("button")[i].innerHTML="A#";
+      break;
+
+    case "v":
+      document.querySelectorAll("button")[i].innerHTML="B";
       break;
 
     default:

@@ -149,6 +149,9 @@ footer{
 .D {
   left: 60px;
 }
+.D:hover {
+  content: "D";
+}
 
 .E {
   left: 115px;
