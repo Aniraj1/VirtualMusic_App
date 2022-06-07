@@ -1,12 +1,13 @@
 document.addEventListener("keypress", function (event) {
   var key = event.key;
   playdrum(key);
-  var mynew = document.querySelector("." + key).className.split(" ")[0];
-  document.querySelector("." + key).innerHTML = mynew;
-  $("." + key).addClass("op");
+  var key1 = change(key);
+  var mynew = document.querySelector("." + key1).className.split(" ")[0];
+  document.querySelector("." + key1).innerHTML = mynew;
+  $("." + key1).addClass("op");
   setTimeout(function () {
-    document.querySelector("." + key).innerHTML = key;
-    $("." + key).removeClass("op");
+    document.querySelector("." + key1).innerHTML = key;
+    $("." + key1).removeClass("op");
   }, 300);
 });
 
@@ -276,5 +277,35 @@ function playkey(key) {
 
     default:
       console.log(key);
+  }
+}
+
+function change(key) {
+  switch (key) {
+    case "2":
+      return "two";
+      break;
+    case "3":
+      return "three";
+      break;
+    case "5":
+      return "five";
+      break;
+    case "6":
+      return "six";
+      break;
+    case "7":
+      return "seven";
+      break;
+    case "9":
+      return "nine";
+      break;
+    case "0":
+      return "zero";
+      break;
+
+    default:
+      return key;
+      break;
   }
 }
