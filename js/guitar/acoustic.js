@@ -6,7 +6,14 @@ for (var i = 0; i < number; i++) {
   });
 }
 document.addEventListener("keypress", function (event) {
-  playguitar(event.key);
+  var key =  event.key;
+  playguitar(key);
+  var key1 = checkkey(key);
+$("."+key1).addClass("op");
+setTimeout(function(){
+  $("."+key1).removeClass("op");
+},300);
+
 });
 
 function playguitar(key) {
@@ -43,5 +50,31 @@ function playguitar(key) {
 
     default:
       console.log(key);
+  }
+}
+
+function checkkey(key) {
+  switch (key) {
+    case "1":
+      return "one";
+      break;
+    case "2":
+      return "two";
+      break;
+    case "3":
+      return "three";
+      break;
+    case "4":
+      return "four";
+      break;
+    case "5":
+      return "five";
+      break;
+    case "6":
+      return "six";
+      break;
+    default:
+      return key;
+      break;
   }
 }

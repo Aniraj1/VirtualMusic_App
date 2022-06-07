@@ -7,7 +7,12 @@ for (var i = 0; i < number; i++) {
 }
 
 document.addEventListener("keypress", function (event) {
-  playukelele(event.key);
+  var key1 =  event.key;
+  playukelele(key1);
+$("."+key1).addClass("op");
+setTimeout(function(){
+  $("."+key1).removeClass("op");
+},300);
 });
 
 function playukelele(key) {

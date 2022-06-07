@@ -75,6 +75,7 @@ nav li a:hover {
     font-size: 8px;
   }
 }
+
 /* Main */
 
 .main {
@@ -174,7 +175,7 @@ h1 {
   }
 }
 @media (max-width: 860px) {
-
+  
   .text {
     margin-top: 0px;
     margin-bottom: 80px;
@@ -198,7 +199,7 @@ h1 {
   .set .string {
     margin: 0;
   }
-
+  
   .text {
     font-size: 18px;
     margin: 10px 10px 40px 10px;
@@ -329,19 +330,20 @@ center a:hover {
 }
 .image button:hover {
   opacity: 40%;
+  background-color: rgb(250, 177, 177);
 }
 
 p {
   text-align: center;
 }
 @media (max-width: 970px) {
-
+  
   .image {
     background-image: url('../images/drum/drum1.png');
     height: 250px;
     width: 375px;
     margin: 40px auto;
-
+    
   }
   .text{
     font-size: 17px;
@@ -351,7 +353,7 @@ p {
     font-size: 40px;
     margin: 0;
   }
-
+  
   .image .hihat {
     left: 15px;
     top: 50px;
@@ -425,3 +427,6 @@ p {
   transform: scale(.95);
 }
 
+.op{
+background-color: lightcoral;
+}

@@ -292,6 +292,8 @@ h1 {
 }
 .guitarsound button:hover {
   opacity: 50%;
+  background-color: rgb(250, 177, 177);
+
 }
 
 .guitarsound2 {
@@ -334,6 +336,8 @@ h1 {
 }
 .guitarsound2 button:hover {
   opacity: 50%;
+  background-color: rgb(250, 177, 177);
+
 }
 
 /* Animation Button */
@@ -346,3 +350,7 @@ h1 {
   box-shadow: 0 0px 10px rgba(0, 0, 0, .5);
   transform: scale(.95);
 }
+
+.op{
+  background-color: lightcoral;
+  }

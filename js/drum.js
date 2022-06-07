@@ -4,9 +4,18 @@ for (var i = 0; i < number; i++) {
     var key = this.innerHTML;
     playdrum(key);  });
 }
+
 document.addEventListener("keypress", function (event) {
-  playdrum(event.key);
+  var key =  event.key;
+  playdrum(key);
+  var key1 = checkkey(key);
+$("."+key1).addClass("op");
+setTimeout(function(){
+  $("."+key1).removeClass("op");
+},300);
+
 });
+
 
 function playdrum(key) {
   switch (key) {
@@ -52,5 +61,37 @@ function playdrum(key) {
 
     default:
       console.log(key);
+  }
+}
+
+function checkkey(key) {
+  switch (key) {
+    case "1":
+      return "one";
+      break;
+    case "2":
+      return "two";
+      break;
+    case "3":
+      return "three";
+      break;
+    case "4":
+      return "four";
+      break;
+    case "5":
+      return "five";
+      break;
+    case "6":
+      return "six";
+      break;
+    case "7":
+      return "seven";
+      break;
+    case "8":
+      return "eight";
+      break;
+    default:
+      return key;
+      break;
   }
 }
