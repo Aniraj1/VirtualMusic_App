@@ -24,7 +24,8 @@ $("button").hover(
   function () {
     $(this).html(original);
   }
-);
+  );
+  
 
 function playdrum(key) {
   switch (key) {

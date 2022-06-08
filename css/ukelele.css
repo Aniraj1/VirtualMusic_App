@@ -294,7 +294,8 @@ center a:hover {
 }
 .guitarsound button:hover{
   opacity: 50%;
-  background-color: rgb(250, 177, 177);
+  background-color:#9595d0;
+
 
 }
 
@@ -334,7 +335,8 @@ center a:hover {
 }
 .guitarsound2 button:hover{
   opacity: 50%;
-  background-color: rgb(250, 177, 177);
+  background-color:#9595d0;
+
 
 
 }
@@ -351,7 +353,8 @@ center a:hover {
 }
 
 .op{
-  background-color: lightcoral;
+  background-color:#9595d0;
+
   }
 
 

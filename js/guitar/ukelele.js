@@ -7,8 +7,9 @@ for (var i = 0; i < number; i++) {
 }
 
 document.addEventListener("keypress", function (event) {
-  var key1 =  event.key;
-  playukelele(key1);
+  var key =  event.key;
+  playukelele(key);
+  var key1 = checkkey(key);
 $("."+key1).addClass("op");
 setTimeout(function(){
   $("."+key1).removeClass("op");
@@ -39,5 +40,25 @@ function playukelele(key) {
 
     default:
       console.log(key);
+  }
+}
+
+function checkkey(key) {
+  switch (key) {
+    case "g":
+      return "gg";
+      break;
+    case "c":
+      return "cc";
+      break;
+    case "e":
+      return "ee";
+      break;
+    case "a":
+      return "aa";
+      break;
+    default:
+      return key;
+      break;
   }
 }
