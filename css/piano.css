@@ -88,6 +88,7 @@ h1 {
 p {
   padding: 0 0 40px 0;
   font-weight: bold;
+  font-size: x-large;
 }
 
 /* Footer */
@@ -256,6 +257,10 @@ span .key{
     background-image: url(../images/piano/hi.png);
     height: 276px;
     width: 438px;
+  }
+
+  .text,p{
+    font-size: large;
   }
 
  .C5,.C5S, .D5, .D5S, .E5,.F5,.F5S ,.G5,.G5S,.A5,.A5S,.B5{
