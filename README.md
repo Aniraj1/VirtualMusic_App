@@ -4,8 +4,6 @@ A music application that lets you play all your favorite tunes online by providi
 
  ## Screenshots
 ![App Screenshot](https://github.com/shubhaaaaaaa/VirtualMusic_App/blob/main/images/Main.png)
-![App Screenshot](https://github.com/shubhaaaaaaa/VirtualMusic_App/blob/main/images/Drum.png)
-![App Screenshot](https://github.com/shubhaaaaaaa/VirtualMusic_App/blob/main/images/Guitar.png)
 ![App Screenshot](https://github.com/shubhaaaaaaa/VirtualMusic_App/blob/main/images/Piano.png)
 
 ## Feedback
